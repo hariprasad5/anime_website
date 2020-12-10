@@ -1,1 +1,4 @@
-document.getElementsByTagName("h1")[0].style.color="blue";
+// Use onclick=navpic
+let pageChange =  function () {
+    window.location.href = "gameinfo.html#newsTab";
+  }
