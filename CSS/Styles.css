@@ -52,6 +52,14 @@ font-family: 'Satisfy', cursive; */
   padding-left: 350px;
 }
 
+.link-color {
+  color: #dcae1d;
+}
+
+.link-color:hover {
+  color: white;
+}
+
 /* Content section*/
 .content-section {
   height: 67vh;
