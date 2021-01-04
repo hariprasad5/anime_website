@@ -1,5 +1,6 @@
 html,
 body {
+  /* scroll-behavior: smooth; */
   margin: 0;
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
@@ -17,14 +18,14 @@ body {
   font-family: "Indie Flower", cursive;
   font-weight: 300;
   margin: 0;
-  color: #dcae1d;
+  color: #457070;
   /* font-family: 'Montserrat', sans-serif;
 font-family: 'Satisfy', cursive; */
 }
 
 .navigation-section {
   padding: 2% 1%;
-  background-color: #00303f;
+  background-color: #ffd571;
 }
 
 .nav-brand:link {
@@ -38,7 +39,7 @@ font-family: 'Satisfy', cursive; */
 }
 .nav-links {
   margin-right: 30px;
-  color: #dcae1d;
+  color: black;
 }
 
 .search-bar {
@@ -53,7 +54,7 @@ font-family: 'Satisfy', cursive; */
 }
 
 .link-color {
-  color: #dcae1d;
+  color: #457070;
 }
 
 .link-color:hover {
@@ -75,7 +76,7 @@ font-family: 'Satisfy', cursive; */
   margin: auto;
   width: 40%;
   padding: 30px;
-  background-color: #e1b382;
+  background-color: #ade498;
   box-shadow: 1px 1px 20px 10px #454545;
 }
 
@@ -110,7 +111,7 @@ font-family: 'Satisfy', cursive; */
 /* inner content section */
 .inner-content-section {
   height: 67vh;
-  background-color: #e5eaf5;
+  background-color: #457070;
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
@@ -120,7 +121,7 @@ font-family: 'Satisfy', cursive; */
   margin: auto;
   width: 40%;
   padding: 30px;
-  background-color: #e1b382;
+  background-color: #ade498;
   box-shadow: 1px 1px 20px 10px #454545;
 }
 
@@ -155,16 +156,16 @@ font-family: 'Satisfy', cursive; */
 .container {
   width: 75%;
   padding: 50px;
-  background-color: white;
+  background-color: #ade498;
   margin: 30px auto;
-  box-shadow: 1px 1px 8px 8px rgb(7, 7, 7);
-  background-color: #aad9e7;
+  box-shadow: 1px 1px 10px 10px #454545;
 }
 
 /* home content text */
 .intro-body-home h2,
 .writer-section h2,
-.about-section h2 {
+.about-section h2,
+.tab-content h1 {
   text-align: center;
   margin-bottom: 20px;
   font-family: "Yellowtail", cursive;
@@ -173,13 +174,13 @@ font-family: 'Satisfy', cursive; */
 
 /* body content section */
 .body-content-section {
-  background-color: #ffb766;
+  background-color: #457070;
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
   padding: 1px;
 }
 
 .carousel-text {
-  color: rgb(252, 249, 249);
+  color: blue;
   text-shadow: 1px 1px, black, -1px -1px black;
 }
 
@@ -323,7 +324,7 @@ font-family: 'Satisfy', cursive; */
 .linkin {
   position: relative;
   bottom: 25px;
-  color: #fcbf1e;
+  color: black;
   margin-top: 10px;
   text-decoration: none;
 }
@@ -331,11 +332,30 @@ font-family: 'Satisfy', cursive; */
 /* Footer Section */
 .footer-section {
   padding: 2% 1%;
-  background-color: #00303f;
+  background-color: #ffd571;
   text-align: center;
-  color: #dcae1d;
+  color: #457070;
 }
 
 .footer-section div p {
   margin: 1px 0;
+}
+
+/* Anime Section */
+.tab-div {
+  text-align: center;
+}
+
+.tablink {
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.list-link:link {
+  text-decoration: none;
+}
+
+.list-link {
+  color: #454545;
 }
